@@ -14,3 +14,7 @@ services:
       - "8080:8080"
     links:
       - "couch:couch"
+  symfony:
+    image: submarinos/symfony
+    ports:
+      - "8081:8080"
